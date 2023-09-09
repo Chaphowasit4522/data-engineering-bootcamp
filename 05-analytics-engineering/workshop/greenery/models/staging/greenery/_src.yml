@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: greenery
+    schema: deb_bootcamp
+    database: essential-graph-395008
+
+    tables:
+      - name: users
+        description: Greenery users
+      - name: events
+        description: Greenery events
+      - name: orders
+        description: Greenery orders
+      - name: addresses
+        description: Greenery addresses
